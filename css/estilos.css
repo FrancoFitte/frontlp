@@ -1,0 +1,76 @@
+body {background-color: wheat;}
+
+h1 {color: rgb(82, 41, 23); text-align: center; 
+    text-decoration: underline; 
+    font-size: 250%;
+}
+
+.imagenbandera {
+    width: 50px;
+}
+h2 {color: coral;
+    text-decoration: underline; 
+    font-size: 200%;
+}
+
+p {background-color: rgb(245, 92, 21); 
+ font-family: Verdana, Geneva, Tahoma, sans-serif; 
+ border-radius: 5%;
+ opacity: 85%;
+ text-align: center;
+}
+
+.imagenportada img { 
+
+    display: block;
+    margin: auto;
+    width: 700px;
+    border-radius: 20%;
+    border-style: groove;
+    border-color: black;
+    padding: 0.5%;
+  
+}
+
+.imageninst img {
+
+    width: 500px;
+    border-radius: 10%;
+    border-style: double;
+    
+    
+}
+
+
+.maps {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {text-align: center; 
+    font-size: 130%;
+    text-decoration: underline; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;}
+
+.video {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+p {text-align: center; line-height: 180%;}
+
+.audio {
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.lista1 {font-weight: bold;}
+
+.lista2 {font-weight: bold;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+     font-style: italic;}
