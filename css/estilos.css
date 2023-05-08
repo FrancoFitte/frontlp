@@ -13,7 +13,7 @@ h2 {color: coral;
     font-size: 200%;
 }
 
-p {background-color: rgb(245, 92, 21); 
+.parrafohistoria  {background-color: rgb(245, 92, 21); 
  font-family: Verdana, Geneva, Tahoma, sans-serif; 
  border-radius: 5%;
  opacity: 85%;
@@ -48,7 +48,7 @@ p {background-color: rgb(245, 92, 21);
 }
 
 h3 {text-align: center; 
-    font-size: 130%;
+    font-size: 120%;
     text-decoration: underline; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;}
@@ -60,7 +60,7 @@ h3 {text-align: center;
     
 }
 
-p {text-align: center; line-height: 180%;}
+
 
 .audio {
     display: flex;
@@ -69,8 +69,42 @@ p {text-align: center; line-height: 180%;}
 }
 
 
-.lista1 {font-weight: bold;}
+.lista1 {font-weight: bold;
+font-size: 120%;
+}
 
 .lista2 {font-weight: bold;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-     font-style: italic;}
+     font-style: italic;
+     font-size: 120%;}
+
+
+.enlaces {  
+  background-color: hwb(64 0% 0% / 0.678);
+  padding: 0.5%;
+  font-size: 150%;
+  
+}     
+
+.imgwpp img {
+
+    width: 400px;
+    float: left;
+
+}
+
+.imginsta img {
+
+    width: 70px;
+}
+
+.imgface img {
+
+    width: 75px;
+}
+
+.redes {
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
