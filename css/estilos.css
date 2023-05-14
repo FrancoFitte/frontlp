@@ -1,13 +1,42 @@
 body {background-color: wheat;}
 
-h1 {color: rgb(82, 41, 23); text-align: center; 
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.redesimg {
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    padding: 0.3%;
+
+    
+    
+} 
+
+.redesimg img {
+    width: 70px;
+    margin: 10px;
+
+}
+
+h1 {
+    display: flex;
+    align-self: center;
+    color: rgb(255, 255, 255); 
     text-decoration: underline; 
-    font-size: 250%;
+    font-size: 300%;
 }
 
 .imagenbandera {
-    width: 50px;
+    width: 170px;
+    padding: 2%;
 }
+
 h2 {color: coral;
     text-decoration: underline; 
     font-size: 200%;
@@ -20,10 +49,13 @@ h2 {color: coral;
  text-align: center;
 }
 
+.imagenportada {
+    display: flex;
+    justify-content: center;
+}
+
 .imagenportada img { 
 
-    display: block;
-    margin: auto;
     width: 700px;
     border-radius: 20%;
     border-style: groove;
@@ -37,14 +69,11 @@ h2 {color: coral;
     width: 500px;
     border-radius: 10%;
     border-style: double;
-    
-    
+      
 }
 
-
 .maps {
-    display: flex;
-    justify-content: center;
+    padding: 0.4%;
 }
 
 h3 {text-align: center; 
@@ -55,11 +84,8 @@ h3 {text-align: center;
 
 .video {
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center;  
 }
-
 
 
 .audio {
@@ -86,25 +112,9 @@ font-size: 120%;
   
 }     
 
-.imgwpp img {
 
-    width: 400px;
-    float: left;
-
-}
-
-.imginsta img {
-
-    width: 70px;
-}
-
-.imgface img {
-
-    width: 75px;
-}
-
-.redes {
-    font-size: 120%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.733);
 }
