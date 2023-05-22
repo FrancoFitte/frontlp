@@ -2,13 +2,18 @@ body {
     background-color: wheat;
 }
 
-.header {
+header {
     display: flex;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.733);
     flex-wrap: wrap;
     
 }
+
+ @font-face {
+  font-family: "manuscrita" ;
+  src: url(../fuentes/manuscrita.ttf) format("truetype") ;
+ }
 
 .redesimg {
     background-color: rgb(97, 97, 97);
@@ -29,7 +34,8 @@ h1 {
     align-self: center;
     color: rgb(255, 255, 255); 
     text-decoration: underline; 
-    font-size: 200%;
+    font-size: 300%;
+    font-family: 'Amaranth', sans-serif;
  }
 
 .imagenbandera {
@@ -40,7 +46,9 @@ h1 {
 h2 {
     color: coral;
     text-decoration: underline; 
-    font-size: 150%;
+    font-size: 2rem;
+    margin-left: 5vw;
+    font-family: "manuscrita"; 
  }
 
 .imagenportada {
@@ -49,20 +57,30 @@ h2 {
 }
 
 .imagenportada img { 
-
-    width: 500px;
+    width: 40%;
     border-radius: 20%;
     border-style: groove;
     border-color: black;
     padding: 0.5%;
+
   }
 
-.imageninst img {
+main {
+display: flex;
 
-    width: 300px;
+}
+
+.imageninstrucciones img {
+    width: 50%;
     border-radius: 10%;
     border-style: double;
+    margin-left: 3vw;
+    margin-bottom: 3%;
     }
+
+.imageninstrucciones {
+  border-bottom: solid 1px #7c8081;
+}
 
 .maps {
     padding: 0.4%;
@@ -72,9 +90,9 @@ h2 {
 
 h3 {
     text-align: center; 
-    font-size: 90%;
+    font-size: 120%;
     text-decoration: underline; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Amaranth', sans-serif;
     font-style: italic;}
 
 
@@ -82,54 +100,87 @@ h3 {
 .lista1 {
     font-weight: bold;
     font-size: 100%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-bottom: solid 1px #7c8081;
  }
 
 .lista2 {
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     font-style: italic;
-    font-size: 100%;}
+    font-size: 100%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
 
-.logowppfix img{
-    width: 200px;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    opacity: 80%;
-}
-
-
-.video {
-    display: flex;
-    justify-content: center;
-    
-}
-
-
-.audio {
-    display: flex;
-    justify-content: center;
-     
- }
-
- .audio audio {
-    display: flex;
-    align-self: center;
-    height:30px;
-    width: 300px;
-
- }
 
  .parrafohistoria  {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: rgba(88, 88, 88, 0.301); 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: 'Amaranth', sans-serif; 
     border-radius: 5%;
     text-align: center;
-    font-size: 85%;
+    font-size: 95%;
   }
+
+.parrafomusica p {
+ font-family: "manuscrita";
+ font-size: 120%;
+ text-align: center;
+ margin: 3vw;
+
+}
+
+.parrafomusica {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.videos p {
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: solid 1px #7c8081;
+    padding-bottom: 5%;
+  }
+
+
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 280vh;
+    width: 50vw;
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+.acompañar {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px #7c8081;
+  border-top: solid 1px #7c8081;
+  padding-bottom: 5%;
+}
+
+.acompañar a {
+  font-size: 120%;
+}
+
+.acompañar p {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
 
 .enlaces {  
     display: flex;
@@ -146,11 +197,50 @@ h3 {
     justify-content: space-between;
     width: 200px;
     border-radius: 20%;
-    padding: 3%;
   }
 
+  .enlaces a:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20%;
+    padding: 0.1%;
+  }
 
-.footer {
+  .redesimg img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .logowppfix img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  }
+
+  a:link {
+    color: rgb(47, 0, 255);
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: mediumvioletred;
+  }
+
+  a:active {
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  
+.logowppfix img{
+  width: 200px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  opacity: 80%;
+}
+
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
