@@ -32,6 +32,7 @@ header {
 h1 {
     display: flex;
     align-self: center;
+    justify-content: center;
     color: rgb(255, 255, 255); 
     text-decoration: underline; 
     font-size: 300%;
@@ -42,6 +43,23 @@ h1 {
     width: 130px;
     padding: 2%;
  }
+
+ main {
+  display: flex;
+  }
+  
+section{
+display: flex;
+flex-direction: column;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
 
 h2 {
     color: coral;
@@ -54,10 +72,11 @@ h2 {
 .imagenportada {
     display: flex;
     justify-content: center;
+  
 }
 
 .imagenportada img { 
-    width: 40%;
+    max-width: 35%;
     border-radius: 20%;
     border-style: groove;
     border-color: black;
@@ -65,13 +84,9 @@ h2 {
 
   }
 
-main {
-display: flex;
-
-}
 
 .imageninstrucciones img {
-    width: 50%;
+    max-width: 50%;
     border-radius: 10%;
     border-style: double;
     margin-left: 3vw;
@@ -79,6 +94,7 @@ display: flex;
     }
 
 .imageninstrucciones {
+  max-width: fit-content;
   border-bottom: solid 1px #7c8081;
 }
 
@@ -150,19 +166,6 @@ h3 {
   }
 
 
-
-  aside {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 280vh;
-    width: 50vw;
-    max-width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-  }
-
 .acompañar {
   display: flex;
   flex-direction: column;
@@ -207,6 +210,10 @@ h3 {
 
   .redesimg img:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .parrafohistoria:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
 
   .logowppfix img:hover {
