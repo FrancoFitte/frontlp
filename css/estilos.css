@@ -287,12 +287,12 @@ footer {
   }
 
   .aside {
-    width: 100%;
+    width: 95%;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: antiquewhite;
     border-style: inset;
-    border-color: grey;
+    border-color: rgb(190, 190, 190);
     border-radius: 10%;
     padding: 2%;
   }
