@@ -1,98 +1,96 @@
-body {
-    background-color: wheat;
+@font-face {
+  font-family: "manuscrita";
+  src: url(../fuentes/manuscrita.ttf) format("truetype");
 }
+
 
 header {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.733);
-    flex-wrap: wrap;
-    
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.733);
+  flex-wrap: wrap;
+
 }
 
- @font-face {
-  font-family: "manuscrita" ;
-  src: url(../fuentes/manuscrita.ttf) format("truetype") ;
- }
 
 .redesimg {
-    background-color: rgb(97, 97, 97);
-    display: flex;
-    justify-content: space-between;
-    align-self: center;
-    align-items: center;
-    padding: 0.3%;
-} 
+  background-color: rgb(97, 97, 97);
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  padding: 0.3%;
+}
 
 .redesimg img {
-    width: 40px;
-    margin: 5px;
+  width: 40px;
+  margin: 5px;
 }
 
 h1 {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    color: rgb(255, 255, 255); 
-    text-decoration: underline; 
-    font-size: 300%;
-    font-family: 'Amaranth', sans-serif;
- }
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-size: 300%;
+  font-family: 'Amaranth', sans-serif;
+}
 
 .imagenbandera {
-    width: 130px;
-    padding: 2%;
- }
+  width: 160px;
+  padding: 2%;
+}
 
- main {
+main {
   display: flex;
-  }
-  
-.section{
-display: flex;
-flex-direction: column;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
 }
 
 .aside {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  margin-top: 15%;
 
 }
 
 
 h2 {
-    color: coral;
-    text-decoration: underline; 
-    font-size: 2rem;
-    margin-left: 5vw;
-    font-family: "manuscrita"; 
- }
-
-.imagenportada {
-    display: flex;
-    justify-content: center;
-  
+  color: coral;
+  text-decoration: underline;
+  font-size: 2rem;
+  margin-left: 5vw;
+  font-family: "manuscrita";
 }
 
-.imagenportada img { 
-    max-width: 35%;
-    border-radius: 20%;
-    border-style: groove;
-    border-color: black;
-    padding: 0.5%;
+.imagenportada {
+  display: flex;
+  justify-content: center;
 
-  }
+}
 
-  
+.imagenportada img {
+  max-width: 35%;
+  border-radius: 20%;
+  border-style: groove;
+  border-color: black;
+  padding: 0.5%;
+
+}
+
+
 .imagenportadamedia {
   display: flex;
   justify-content: center;
 
 }
 
-.imagenportadamedia img { 
+.imagenportadamedia img {
   max-width: 80%;
   border-radius: 10%;
   border-style: groove;
@@ -104,66 +102,68 @@ h2 {
 
 
 .imageninstrucciones img {
-    max-width: 50%;
-    border-radius: 10%;
-    border-style: double;
-    margin-left: 3vw;
-    margin-bottom: 3%;
-    }
+  max-width: 50%;
+  border-radius: 10%;
+  border-style: double;
+  margin-left: 3vw;
+  margin-bottom: 3%;
+}
 
 .imageninstrucciones {
   border-bottom: solid 1px #7c8081;
 }
 
 .maps {
-    padding: 0.4%;
-    display: flex;
-    align-self: center;
- }
+  padding: 0.4%;
+  display: flex;
+  align-self: center;
+}
 
 h3 {
-    text-align: center; 
-    font-size: 120%;
-    text-decoration: underline; 
-    font-family: 'Amaranth', sans-serif;
-    font-style: italic;}
+  text-align: center;
+  font-size: 120%;
+  text-decoration: underline;
+  font-family: 'Amaranth', sans-serif;
+  font-style: italic;
+}
 
 
 
 .lista1 {
-    font-weight: bold;
-    font-size: 100%;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    border-bottom: solid 1px #7c8081;
- }
+  font-weight: bold;
+  font-size: 100%;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  border-bottom: solid 1px #7c8081;
+}
 
 .lista2 {
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    font-style: italic;
-    font-size: 100%;
-    margin-left: 3vw;
-    margin-right: 3vw;
-  }
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-size: 100%;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
 
 
- .parrafohistoria  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(88, 88, 88, 0.301); 
-    font-family: 'Amaranth', sans-serif; 
-    border-radius: 5%;
-    text-align: center;
-    font-size: 95%;
-  }
+.parrafohistoria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(88, 88, 88, 0.473);
+  font-family: 'Amaranth', sans-serif;
+  border-radius: 5%;
+  text-align: center;
+  font-size: 95%;
+  padding: 1%;
+}
 
 .parrafomusica p {
- font-family: "manuscrita";
- font-size: 120%;
- text-align: center;
- margin: 3vw;
+  font-family: "manuscrita";
+  font-size: 120%;
+  text-align: center;
+  margin: 3vw;
 
 }
 
@@ -175,12 +175,29 @@ h3 {
 }
 
 .videos p {
-    font-size: 1.1rem;
-    font-style: italic;
-    font-weight: bold;
-    border-bottom: solid 1px #7c8081;
-    padding-bottom: 5%;
-  }
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: bold;
+  border-bottom: solid 1px #7c8081;
+  padding-bottom: 5%;
+}
+
+.videoaside {
+  width: 78%;
+  height: 30%;
+}
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.videomusicajazz {
+  width: 73%;
+  height: 30%;
+}
 
 
 .acompañar {
@@ -188,76 +205,79 @@ h3 {
   flex-direction: column;
   border-bottom: solid 1px #7c8081;
   border-top: solid 1px #7c8081;
-  padding-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .acompañar a {
   font-size: 120%;
+  text-align: center;
 }
 
 .acompañar p {
   font-size: 1.2rem;
   font-style: italic;
   font-weight: bold;
+  text-align: center;
+
 }
 
 
-.enlaces {  
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: hwb(64 0% 0% / 0.678);
-    padding: 0.5%;
-    font-size: 120%;
-    text-align: center;
-  }     
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: hwb(64 0% 0% / 0.719);
+  padding: 0.5%;
+  text-align: center;
+}
 
-  .enlaces img {
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-    border-radius: 20%;
-  }
+.card {
+background-color: rgb(196, 196, 196);
+margin-bottom: 2%;
+margin-top: 2%;
+}
 
-  .enlaces a:hover{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 20%;
-    padding: 0.1%;
-  }
-
-  .redesimg img:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-
-  .parrafohistoria:hover {
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  }
-
-  .logowppfix img:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
-  }
-
-  a:link {
-    color: rgb(47, 0, 255);
-    text-decoration: none;
-  }
-
-  a:visited {
-    color: mediumvioletred;
-  }
-
-  a:active {
-    color: white;
-  }
-
-  a:hover {
-    text-decoration: underline;
-    color: black;
-  }
-
-  
-.logowppfix img{
+.enlaces img {
+  display: flex;
+  justify-content: space-between;
   width: 200px;
+  border-radius: 20%;
+}
+
+.redesimg img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.parrafohistoria:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.logowppfix img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+a:link {
+  color: rgb(47, 0, 255);
+  text-decoration: none;
+}
+
+a:visited {
+  color: mediumvioletred;
+}
+
+a:active {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+
+.logowppfix img {
+  width: 50px;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -265,18 +285,18 @@ h3 {
 }
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.733);
-    }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.733);
+}
 
 .datosweb {
-    display: flex;
-    align-self: center;
-    color: white;
-    text-decoration: none;
-    font-size: 150%;
+  display: flex;
+  align-self: center;
+  color: white;
+  text-decoration: none;
+  font-size: 150%;
 }
 
 
@@ -301,25 +321,24 @@ footer {
     text-align: center;
   }
 
-.imagenportada{
-  display: none;
+  .imagenportada {
+    display: none;
+  }
+
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+
 }
 
 
- main {
-  display: flex;
-  flex-direction: column;
- }
-
-
-}
-
-
-@media (min-width: 768px){
+@media (min-width: 768px) {
 
   .imagenportadamedia {
     display: none;
   }
 
 }
-
