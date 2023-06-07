@@ -225,9 +225,9 @@ h3 {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
   background-color: hwb(64 0% 0% / 0.719);
-  border-radius: 3%;
-  padding: 0.5%;
+  border-radius: 2%;
   text-align: center;
 }
 
