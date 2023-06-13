@@ -20,6 +20,10 @@
 
   <title>Receta de tortilla Española, paso a paso</title>
 
+  <script>
+    alert("Bienvenidxs a nuestra página, aquí encontrará la mejor receta de tortilla de papas y otras más de toda la región española") 
+  </script>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
@@ -43,7 +47,7 @@
 
 <body>
 
-  <header>
+  <header id="header">
 
     <img class="imagenbandera" src="https://cdn.pixabay.com/animation/2022/09/13/17/55/17-55-34-595_512.gif">
 
@@ -72,21 +76,29 @@
     </div>
 
   </header>
+  <button class="cambiarfondo" onclick="cambiarfondo()">MODO DARK</button>
   <br>
   <br>
-  <div class="imagenportada">
-    <img src="./Imagenes/imagen0.jpg" alt="imagen0">
+  
+  <div id="imagenportada">
+    <div class="imagenportada">
+      <img src="./Imagenes/imagen0.jpg" alt="imagen0">
+    </div>
+
   </div>
+
   <br>
   <br>
+
+ 
 
   <div class="imagenportadamedia">
     <img src="./Imagenes/vino-y-tortilla-de-patatas.png" alt="vino y tortilla">
   </div>
 
-  <main>
+  <main id="main">
 
-    <section class="section">
+    <section id="section">
 
       <h2>Ingredientes</h2>
       <ul>
@@ -221,22 +233,27 @@
 
   </main>
 
-  <div class="parrafohistoria">
-    <h3>Un poco de historia para anexar a esta mágica receta</h3>
-    <p>
-      Si te preguntas dónde se inventó la tortilla española, la respuesta es sencilla: Villanueva de la Serena
-      (Badajoz). Fue idea de Joseph de Tena Godoy y el marqués de Robledo allá por el siglo XVII. El objetivo de estos
-      amantes de la buena comida era elaborar un plato barato y nutritivo. Una receta que pudiera realizar cualquier
-      persona, hasta en los estratos más humildes.
-      Y la verdad es que lo consiguieron. No obstante, las curiosidades de la tortilla española no terminan aquí. La
-      primera receta data del siglo XX y no contenía cebolla, solo patatas y huevos. La generalización de este
-      ingrediente llegaría a partir de 1945, algo que no deja de ser sorprendente. Al final, la disputa entre aquellos
-      que les gusta con cebolla y los que no, es bastante reciente.
-      Además, en los recetarios más antiguos no aparecía el aceite de oliva u otro para cocinarla. En su lugar se
-      utilizaba manteca de cerdo o mantequilla, la cual seguro que le da un sabor peculiar a la receta. No obstante,
-      nadie puede negar el éxito que ha supuesto la tortilla.
-    </p>
+  <div id="parrafohistoria">
+
+    <div class="parrafohistoria">
+      <h3>Un poco de historia para anexar a esta mágica receta</h3>
+      <p>
+        Si te preguntas dónde se inventó la tortilla española, la respuesta es sencilla: Villanueva de la Serena
+        (Badajoz). Fue idea de Joseph de Tena Godoy y el marqués de Robledo allá por el siglo XVII. El objetivo de estos
+        amantes de la buena comida era elaborar un plato barato y nutritivo. Una receta que pudiera realizar cualquier
+        persona, hasta en los estratos más humildes.
+        Y la verdad es que lo consiguieron. No obstante, las curiosidades de la tortilla española no terminan aquí. La
+        primera receta data del siglo XX y no contenía cebolla, solo patatas y huevos. La generalización de este
+        ingrediente llegaría a partir de 1945, algo que no deja de ser sorprendente. Al final, la disputa entre aquellos
+        que les gusta con cebolla y los que no, es bastante reciente.
+        Además, en los recetarios más antiguos no aparecía el aceite de oliva u otro para cocinarla. En su lugar se
+        utilizaba manteca de cerdo o mantequilla, la cual seguro que le da un sabor peculiar a la receta. No obstante,
+        nadie puede negar el éxito que ha supuesto la tortilla.
+      </p>
+    </div>
+
   </div>
+
 
   <br>
 
@@ -308,7 +325,7 @@
   </div>
 
 
-  <footer>
+  <footer id="footer">
 
 
     <div class="maps">
@@ -340,24 +357,16 @@
 
     </div>
 
-    <div>
-      <p class="datosweb">
-        Franco Fitte
-        <br>
-        francofitte90@gmail.com
-        <br>
-        LinkedIn
-        <br>
-        GitHub
-      </p>
-    </div>
-
+    <button class="autor" onclick="copy()">Copyright ©</button>
 
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
+
+
+  <script src="./js/javascript.js"></script>
 
 </body>
 
